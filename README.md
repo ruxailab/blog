@@ -22,14 +22,14 @@ To run the blog locally:
 
 ## 🗂 Project Structure
 
-\`\`\`bash
+```bash
 .
 ├── .vitepress      # Config and theme files
 ├── public          # Static assets
 ├── posts           # Blog posts in Markdown
 ├── index.md        # Main landing page
 └── README.md       # Project documentation
-\`\`\`
+```
 
 ## ✍️ Contributing
 
