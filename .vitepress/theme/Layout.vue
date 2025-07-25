@@ -12,14 +12,14 @@ const { page, frontmatter } = useData()
     <div class="max-w-3xl mx-auto px-4 sm:px-6 xl:max-w-5xl xl:px-0">
       <nav class="flex justify-between items-center py-10 font-bold">
         <a class="text-xl" href="/" aria-label="RUXAILAB">
-          <!--
+          
           <img
             class="inline-block mr-2"
-            style="width: 100px; height: 50px"
+            style="width: 400px;"
             alt="logo"
-            src="/uxai.png"
+            src="/ruxailab-crop.png"
           />
--->
+
         </a>
         <div class="text-sm text-gray-500 dark:text-white leading-5">
           <a

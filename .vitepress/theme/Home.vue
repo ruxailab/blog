@@ -8,6 +8,7 @@ const { frontmatter } = useData()
 
 <template>
   <div class="divide-y divide-gray-200 dark:divide-slate-200/5">
+    <!--
     <div class="pt-6 pb-8 space-y-2 md:space-y-5">
       <h1
         class="text-3xl leading-9 font-extrabold text-gray-900 primary-color dark:text-white tracking-tight sm:text-4xl sm:leading-10 md:text-6xl md:leading-14"
@@ -18,6 +19,7 @@ const { frontmatter } = useData()
         {{ frontmatter.subtext }}
       </p>
     </div>
+    -->
     <ul class="divide-y divide-gray-200 dark:divide-slate-200/5">
       <li class="py-12" v-for="{ title, url, date, excerpt } of posts">
         <article
@@ -25,7 +27,7 @@ const { frontmatter } = useData()
         >
           <Date :date="date" />
           <div class="space-y-5 xl:col-span-3">
-            <div class="space-y-6">
+            <div class="space-y-0">
               <h2 class="text-2xl leading-8 font-bold tracking-tight">
                 <a class="text-gray-900 dark:text-white" :href="url">{{
                   title
