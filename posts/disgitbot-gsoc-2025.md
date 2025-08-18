@@ -1,6 +1,6 @@
 ---
 title: Building Disgitbot - A Discord Bot That Bridges GitHub and Community
-date: 2025-01-15
+date: 2025-08-18
 author: Tianqin Meng
 gravatar: b7097d45b86e3f3361191a95f65544a02bd36ff3f778deb9f099353bed812970
 linkedin: 'https://linkedin.com/in/tianqin-meng-9b6a87247'
