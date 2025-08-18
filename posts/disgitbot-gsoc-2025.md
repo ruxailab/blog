@@ -10,8 +10,6 @@ linkedin: 'https://linkedin.com/in/tianqin-meng-9b6a87247'
 
 **The Solution**: Disgitbot automates everything. It tracks your GitHub activity, updates Discord roles automatically, uses AI to label and review PRs, and shows real-time analytics. Built during **Google Summer of Code 2025** with RUXAILAB.
 
-<img src="/images/disgitbot-hero.png" alt="Disgitbot in Action" style="display: block; margin: 2rem auto; max-width: 600px;" />
-
 ---
 
 ## How It Works
