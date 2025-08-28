@@ -1,16 +1,20 @@
 ---
-title: Building Disgitbot - A Discord Bot That Bridges GitHub and Community
+title: GSoC 2025 Journey (Tianqin’s project) - Bridging GitHub and Discord 
 date: 2025-08-18
 author: Tianqin Meng
 gravatar: b7097d45b86e3f3361191a95f65544a02bd36ff3f778deb9f099353bed812970
 linkedin: 'https://linkedin.com/in/tianqin-meng-9b6a87247'
 ---
 
+Over the summer, Tianqin designed and implemented the first version of Disgitbot, turning Discord into a live dashboard for GitHub activity. Make a pull request, get a role. Contribute consistently, unlock recognition. The bot ensures that contributor engagement and project visibility are always up to date. Disgitbot automates everything. It tracks your GitHub activity, updates Discord roles automatically, uses AI to label and review PRs, and shows real-time analytics. 
+
+Created during Google Summer of Code 2025 with RUXAILAB, this project is just the beginning—discover how it can transform your community.
+
+---
+
 **The Problem**: Managing GitHub contributions across Discord communities is messy. People manually assign roles, forget to label PRs, and lose track of who's contributing what. Teams waste time on administrative tasks instead of building software.
 
 **The Solution**: Disgitbot automates everything. It tracks your GitHub activity, updates Discord roles automatically, uses AI to label and review PRs, and shows real-time analytics. Built during **Google Summer of Code 2025** with RUXAILAB.
-
----
 
 ## How It Works
 
