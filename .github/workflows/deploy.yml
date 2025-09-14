@@ -30,7 +30,7 @@ jobs:
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BLOG_RUXAILAB }}'
-          projectId: blog-ruxailab
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_RUXAILAB_PROD }}'
+          projectId: ruxailab-prod
           channelId: live
           target: blog
