@@ -1,0 +1,12 @@
+{
+  "projects": {
+    "default": "ruxailab-prod"
+  },
+  "targets": {
+    "ruxailab-prod": {
+      "hosting": {
+        "blog": ["blog-ruxailab"]
+      }
+    }
+  }
+}
