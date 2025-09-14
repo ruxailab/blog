@@ -3,7 +3,7 @@ title: Introducing the RUXAILAB Blog
 date: 2025-06-09
 author: Marc González
 gravatar: 681a2e6f33143d17f333be879bc463e5
-twitter: '@marcgc21'
+github: 'marcgc21'
 ---
 
 

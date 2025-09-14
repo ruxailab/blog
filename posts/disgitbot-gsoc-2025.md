@@ -4,6 +4,7 @@ date: 2025-08-18
 author: Tianqin Meng
 gravatar: b7097d45b86e3f3361191a95f65544a02bd36ff3f778deb9f099353bed812970
 linkedin: 'https://linkedin.com/in/tianqin-meng-9b6a87247'
+github: 'tqmsh'
 ---
 
 Over the summer, Tianqin designed and implemented the first version of Disgitbot, turning Discord into a live dashboard for GitHub activity. Make a pull request, get a role. Contribute consistently, unlock recognition. The bot ensures that contributor engagement and project visibility are always up to date. Disgitbot automates everything. It tracks your GitHub activity, updates Discord roles automatically, uses AI to label and review PRs, and shows real-time analytics. 
