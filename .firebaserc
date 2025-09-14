@@ -1,5 +1,12 @@
 {
   "projects": {
-    "default": "finaltest-b0895"
+    "default": "ruxailab-prod"
+  },
+  "targets": {
+    "ruxailab-prod": {
+      "hosting": {
+        "blog": ["blog-ruxailab"]
+      }
+    }
   }
 }
