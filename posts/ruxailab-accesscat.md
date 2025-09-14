@@ -3,7 +3,7 @@ title: RUXAILAB Awarded for Accessibility Innovation from AccesCat
 date: 2024-12-20
 author: Marc González
 gravatar: 681a2e6f33143d17f333be879bc463e5
-twitter: '@marcgc21'
+github: 'marcgc21'
 ---
 
 We are thrilled to announce that **RUXAILAB** has received the top award in the **II Convocatòria de Solucions Disruptives 2025**, organized by the **AccessCat** innovation network!

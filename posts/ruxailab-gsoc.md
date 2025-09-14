@@ -3,7 +3,7 @@ title: RUXAILAB Selected for Google Summer of Code 2025
 date: 2025-04-01
 author: Marc González
 gravatar: 681a2e6f33143d17f333be879bc463e5
-twitter: '@marcgc21'
+github: 'marcgc21'
 ---
 
 We are proud to announce that **RUXAILAB** has been officially selected as a mentoring organization for **Google Summer of Code 2025**!
