@@ -17,7 +17,7 @@ const { page, frontmatter } = useData()
             class="inline-block mr-2"
             style="width: 400px;"
             alt="logo"
-            src="/ruxailab-crop.png"
+            src="/ruxailab-crop.webp"
           />
 
         </a>

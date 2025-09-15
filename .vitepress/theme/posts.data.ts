@@ -19,7 +19,6 @@ export default createContentLoader('posts/*.md', {
     return raw
       .filter(({ frontmatter, url }) => {
         if (!frontmatter.date || !frontmatter.title) {
-          console.warn(`Skipping post at ${url} — missing title or date`)
           return false
         }
         return true
