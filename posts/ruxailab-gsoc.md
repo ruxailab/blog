@@ -7,7 +7,7 @@ github: 'marcgc21'
 ---
 
 We are proud to announce that **RUXAILAB** has been officially selected as a mentoring organization for **Google Summer of Code 2025**!
-<img src="/images/GSoC-Horizontal.png" alt="GSOC Logo" style="display: block; margin: 2rem auto; max-width: 273px;" />
+<img src="/images/GSoC-Horizontal.webp" alt="GSOC Logo" style="display: block; margin: 2rem auto; max-width: 273px;" />
 
 ---
 

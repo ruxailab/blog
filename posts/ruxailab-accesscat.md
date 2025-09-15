@@ -7,7 +7,7 @@ github: 'marcgc21'
 ---
 
 We are thrilled to announce that **RUXAILAB** has received the top award in the **II Convocatòria de Solucions Disruptives 2025**, organized by the **AccessCat** innovation network!
-<img src="/images/logo_accesscat.png" alt="AccessCat Logo" style="display: block; margin: 2rem auto; max-width: 273px;" />
+<img src="/images/logo_accesscat.webp" alt="AccessCat Logo" style="display: block; margin: 2rem auto; max-width: 273px;" />
 
 ---
 
