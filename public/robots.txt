@@ -1,0 +1,17 @@
+# robots.txt for RUXAILAB Blog
+# https://blog-ruxailab.web.app
+
+User-agent: *
+Allow: /
+
+# Allow crawling of posts and images
+Allow: /posts/
+Allow: /images/
+
+# Disallow development and config files
+Disallow: /.vitepress/
+Disallow: /node_modules/
+Disallow: /.git/
+
+# Sitemap location
+Sitemap: https://blog-ruxailab.web.app/sitemap.xml

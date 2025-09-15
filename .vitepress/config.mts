@@ -4,6 +4,12 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "RUXAILAB",
   description: "The UX laboratory",
+  
+  // Sitemap configuration
+  sitemap: {
+    hostname: 'https://blog-ruxailab.web.app'
+  },
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
