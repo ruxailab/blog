@@ -1,9 +1,18 @@
 <script setup lang="ts">
+import { ref, computed } from 'vue'
 import Date from './Date.vue'
 import { data as posts } from './posts.data.js'
 import { useData } from 'vitepress'
 
 const { frontmatter } = useData()
+
+const query = ref('')
+
+const filteredPosts = computed(() => {
+  const q = String(query.value || '').trim().toLowerCase()
+  if (!q) return posts
+  return posts.filter((p) => p.title.toLowerCase().includes(q))
+})
 </script>
 
 <template>
@@ -20,8 +29,20 @@ const { frontmatter } = useData()
       </p>
     </div>
     -->
+    <div class="pt-4 pb-6">
+      <label for="search" class="sr-only">Search posts by title</label>
+      <input
+        id="search"
+        v-model="query"
+        type="search"
+        placeholder="Search posts by title..."
+        class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary-color"
+        aria-label="Search posts by title"
+      />
+    </div>
+
     <ul class="divide-y divide-gray-200 dark:divide-slate-200/5">
-      <li class="py-12" v-for="{ title, url, date, excerpt } of posts">
+      <li class="py-12" v-for="{ title, url, date, excerpt } of filteredPosts">
         <article
           class="space-y-2 xl:grid xl:grid-cols-4 xl:space-y-0 xl:items-baseline"
         >
@@ -46,5 +67,9 @@ const { frontmatter } = useData()
         </article>
       </li>
     </ul>
+
+    <div v-if="filteredPosts.length === 0" class="py-12 text-gray-500">
+      No posts found matching "{{ query }}".
+    </div>
   </div>
 </template>
